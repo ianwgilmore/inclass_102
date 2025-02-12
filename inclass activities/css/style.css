@@ -1,0 +1,68 @@
+/* Matt - Lab W 12-2
+    Ian - lab TH 12-2
+*/
+
+
+body{
+    /* import font */
+    font-family: 'Montserrat', serif;
+    /* weights 300 400 500 */
+}
+
+/* .banner{
+    /* background-image: url(../images/globe.jpg); 
+} */
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+
+.social img{
+    height: 20px;   
+    float:right; 
+}
+
+nav{
+    margin-left: 100px;
+    display: inline;
+}
+
+nav ul{
+    list-style: none;
+    display:inline;
+    word-spacing: 20px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff
+}
+
+nav ul li a:hover{
+    color: #FFFFFF;
+}
+
+nav ul li a:visited{
+    color: #FFFFFF;
+}
+
+.nav-logo{
+    background-color: aqua;
+    flex:50%;
+}
+
+.logo{
+    display: inline;
+}
+
+.social{
+    background-color: red;
+    flex:0%;
+    float:right;
+}
