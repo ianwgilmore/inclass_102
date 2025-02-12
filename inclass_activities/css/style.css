@@ -27,6 +27,7 @@ header{
 .social img{
     height: 20px;   
     float:right; 
+    padding: 3px;
 }
 
 nav{
@@ -69,6 +70,15 @@ nav ul li a:visited{
 .social{
     flex:0%;
     float:right;
+}
+
+/* flex needs into 2 columns, fix image size, make links */
+main{
+    display:flex;
+}
+
+main img{
+    height:200px;
 }
 
 footer{
