@@ -2,7 +2,7 @@
     Ian - lab TH 12-2
 */
 
-
+/* do font stuff */
 body{
     /* import font */
     font-family: 'Montserrat', serif;
@@ -17,18 +17,19 @@ body{
 }
 
 .banner-text{
-    display: flex;
-    /* align-items: center; */
+    position: absolute;
+    top: 50%;
     padding-left:30px;
     font-weight: bold;
 }
 
-
+/* vertically center the header text and logos*/
 header{
     display: flex;
     flex-direction: row;
     height: 50px;
     background-color:black;
+    vertical-align: middle;
 }
 
 .social img{
@@ -79,7 +80,7 @@ nav ul li a:visited{
     float:right;
 }
 
-/* flex needs into 2 columns, fix image size, make links */
+
 main{
     padding: 20px;
     display: grid;
@@ -89,7 +90,7 @@ main{
 }
 
 main img{
-    height:200px;
+    height:300px;
 }
 
 footer{
@@ -102,6 +103,7 @@ footer{
     vertical-align: middle;
 }
 
+/* put on different lines */
 .questions{
     background-color:#FFFFFF;
     display: flex;
