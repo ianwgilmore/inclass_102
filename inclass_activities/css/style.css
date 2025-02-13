@@ -7,13 +7,20 @@ body{
     /* import font */
     font-family: 'Montserrat', serif;
     /* weights 300 400 500 */
-    margin: 0;
+    margin: 0; 
 }
 
 .banner{
     background-image: url(../images/globe.jpg); 
     color:#FFFFFF;
     height: 700px;
+}
+
+.banner-text{
+    display: flex;
+    /* align-items: center; */
+    padding-left:30px;
+    font-weight: bold;
 }
 
 
@@ -74,7 +81,11 @@ nav ul li a:visited{
 
 /* flex needs into 2 columns, fix image size, make links */
 main{
-    display:flex;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: lightgrey;
+    gap:50px;
 }
 
 main img{
@@ -82,7 +93,35 @@ main img{
 }
 
 footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
     background-color: black;
     color:#FFFFFF;
-    text-align:center;
+    vertical-align: middle;
+}
+
+.questions{
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn{
+    background-color: #992222;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.learn:hover{
+    background-color: red;
+    font-weight: bold;
 }
